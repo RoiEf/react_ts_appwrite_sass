@@ -1,0 +1,31 @@
+// them colors
+$primary: blue;
+$secondary: grey;
+$tertiary: green;
+$error: red;
+$info: yellow;
+
+// color pallet
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "tertiary": $tertiary,
+    "error": $error,
+    "info": $info,
+    "black": black,
+    "white": white,
+);
+
+// spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// box-shadow
+$base-box-shadow: 1px, 3px, 5px, rgba(0,0,0,0.1);
+
+// font sizes
+$base-font-size: 1rem;
