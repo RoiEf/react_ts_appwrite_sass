@@ -16,7 +16,7 @@
   flex-flow: row wrap;
 }
 
-@media (min-width: ) {
+@media (min-width: 0) {
   .col-1-xs {
     box-sizing: border-box;
     flex-grow: 0;

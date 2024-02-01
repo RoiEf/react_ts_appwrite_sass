@@ -5,12 +5,12 @@ import Footer from "./elements/Footer";
 
 export default function Layout() {
   return (
-    <>
+    <div className="container">
       {/* <ScrollToAnchor /> */}
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 
