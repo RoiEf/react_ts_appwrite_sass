@@ -17,11 +17,21 @@
             .text-#{$key}-light-#{$n} {
                 color: mix(white, $val, $n * 10%);
             }
+            .text-hover-#{$key}-light-#{$n}{
+                &:hover {
+                    color: mix(white, $val, $n * 10%);
+                }
+            }
             .bg-#{$key}-light-#{$n}{
                 background-color: mix(white, $val, $n * 10%);
             }
             .text-#{$key}-dark-#{$n} {
                 color: mix(black, $val, $n * 10%);
+            }
+            .text-hover-#{$key}-dark-#{$n}{
+                &:hover {
+                    color: mix(black, $val, $n * 10%);
+                }
             }
             .bg-#{$key}-dark-#{$n} {
                 background-color: mix(black, $val, $n * 10%);
