@@ -1167,72 +1167,299 @@
   background-color: white;
 }
 
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e2e2e2;
+  border: 0;
+}
+
 .btn-primary {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: blue;
+  border: 0;
+}
+.btn-primary:hover {
+  background-color: #1a1aff;
+}
+
+.btn-outlined-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid blue;
+}
+.btn-outlined-primary:hover {
+  background-color: blue;
+}
+
+.btn-complement-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: blue;
+  border: 0;
+  color: #ffff1a;
+}
+.btn-complement-primary:hover {
+  color: blue;
+  background-color: #ffff1a;
 }
 
 .btn-secondary {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: grey;
+  border: 0;
+}
+.btn-secondary:hover {
+  background-color: #8d8d8d;
+}
+
+.btn-outlined-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid grey;
+}
+.btn-outlined-secondary:hover {
+  background-color: grey;
+}
+
+.btn-complement-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: grey;
+  border: 0;
+  color: #8d8d8d;
+}
+.btn-complement-secondary:hover {
+  color: grey;
+  background-color: #8d8d8d;
 }
 
 .btn-tertiary {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: green;
+  border: 0;
+}
+.btn-tertiary:hover {
+  background-color: #009a00;
+}
+
+.btn-outlined-tertiary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid green;
+}
+.btn-outlined-tertiary:hover {
+  background-color: green;
+}
+
+.btn-complement-tertiary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: green;
+  border: 0;
+  color: #9a009a;
+}
+.btn-complement-tertiary:hover {
+  color: green;
+  background-color: #9a009a;
 }
 
 .btn-error {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: red;
+  border: 0;
+}
+.btn-error:hover {
+  background-color: #ff1a1a;
+}
+
+.btn-outlined-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid red;
+}
+.btn-outlined-error:hover {
+  background-color: red;
+}
+
+.btn-complement-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: red;
+  border: 0;
+  color: #1affff;
+}
+.btn-complement-error:hover {
+  color: red;
+  background-color: #1affff;
 }
 
 .btn-info {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: yellow;
+  border: 0;
+}
+.btn-info:hover {
+  background-color: #ffff1a;
+}
+
+.btn-outlined-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid yellow;
+}
+.btn-outlined-info:hover {
+  background-color: yellow;
+}
+
+.btn-complement-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: yellow;
+  border: 0;
+  color: #1a1aff;
+}
+.btn-complement-info:hover {
+  color: yellow;
+  background-color: #1a1aff;
 }
 
 .btn-black {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: black;
+  border: 0;
+}
+.btn-black:hover {
+  background-color: #0d0d0d;
+}
+
+.btn-outlined-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+.btn-outlined-black:hover {
+  background-color: black;
+}
+
+.btn-complement-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: black;
+  border: 0;
+  color: #0d0d0d;
+}
+.btn-complement-black:hover {
+  color: black;
+  background-color: #0d0d0d;
 }
 
 .btn-white {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: white;
+  border: 0;
+}
+.btn-white:hover {
+  background-color: white;
+}
+
+.btn-outlined-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid white;
+}
+.btn-outlined-white:hover {
+  background-color: white;
+}
+
+.btn-complement-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 0;
+  color: white;
+}
+.btn-complement-white:hover {
+  color: white;
   background-color: white;
 }
