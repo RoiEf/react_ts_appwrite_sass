@@ -16,7 +16,7 @@ import Tour from "./pages/Tour.tsx";
 import About from "./pages/About.tsx";
 import Legal from "./pages/Legal.tsx";
 import Login from "./pages/Login.tsx";
-import Signup from "./pages/Signup.tsx";
+import Signup from "./pages/SignUp.tsx";
 import UserProfile from "./pages/UserProfile.tsx";
 
 const router = createBrowserRouter(
