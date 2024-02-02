@@ -23,14 +23,8 @@
     "eslint": "^8.55.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
     "sass": "^1.70.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
-  },
-  "overrides": {
-    "chokidar": "~3.5.3",
-    "glob-parent": "~6.0.2"
   }
 }

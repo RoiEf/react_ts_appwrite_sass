@@ -6,8 +6,8 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import "./index.css";
 
+import "./sass/index.scss";
 import Layout from "./Layout.tsx";
 
 import Home from "./pages/Home.tsx";
