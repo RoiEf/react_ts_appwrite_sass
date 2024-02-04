@@ -8,7 +8,7 @@ export default function Layout() {
     <>
       {/* <ScrollToAnchor /> */}
       <Header />
-      <div className="container">
+      <div className="container mt-4">
         <Outlet />
       </div>
       <Footer />

@@ -19,3 +19,35 @@
         @extend %flex-layout;
     }
 }
+
+@mixin navbar_link_common($py: 0.5rem, $px: 1.5rem, $decoration: none) {
+    padding: $py $px;
+    font-weight: bold;
+    text-decoration: $decoration;
+}
+
+@each $key, $val in $colors {
+    .nav_link-#{$key} {
+        @include navbar_link_common;
+
+        color: $val;
+    }
+    .nav_link_active-#{$key} {
+        @include navbar_link_common(0.5rem, 1.5rem, underline);
+
+        color: $val;
+    }
+
+    @for $n from 1 through 9 {
+        .nav_link-#{$key}-light-#{$n} {
+            @include navbar_link_common;
+
+            color: mix(white, $val, $n * 10%);
+        }
+        .nav_link_active-#{$key}-light-#{$n} {
+            @include navbar_link_common(0.5rem, 1.5rem, underline);
+
+            color: mix(white, $val, $n * 10%);
+        }    
+    }
+}
