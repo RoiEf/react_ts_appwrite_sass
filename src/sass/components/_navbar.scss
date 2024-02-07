@@ -11,9 +11,14 @@
 
     padding: $base-padding $base-padding * 2;
     box-shadow: $base-box-shadow;
-
+.a:visited {
+            color: $primary;
+        }
     .site-title {
         font-size: $font-size-lg;
+        font-weight: bold;
+
+        
     }
     .container {
         @extend %flex-layout;
